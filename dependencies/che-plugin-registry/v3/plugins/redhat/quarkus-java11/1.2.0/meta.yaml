@@ -16,7 +16,7 @@ spec:
       name: vscode-quarkus
       memoryLimit: "3500Mi"
       args:
-        - eval ${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}
+        - ${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}
       volumes:
       - mountPath: "/home/jboss/.m2"
         name: m2
