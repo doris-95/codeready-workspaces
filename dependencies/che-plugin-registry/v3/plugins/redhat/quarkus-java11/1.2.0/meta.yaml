@@ -15,9 +15,7 @@ spec:
     - image: "quay.io/crw/plugin-java11-rhel8:2.1-7"
       name: vscode-quarkus
       memoryLimit: "3500Mi"
-      args:	
-        - sh	
-        - -c	
+      args:
         - ${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}
       volumes:
       - mountPath: "/home/jboss/.m2"
