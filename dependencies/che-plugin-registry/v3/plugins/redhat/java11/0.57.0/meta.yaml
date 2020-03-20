@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: "2020-02-20"
 spec:
   containers:
-    - image: "registry.redhat.io/codeready-workspaces/plugin-java11-rhel8:2.1"
+    - image: "quay.io/crw/stacks-java-rhel8@sha256:db19cfebe33f0fbc1307d95a1700366fcb5fc869486fda6f0023bc059474c7c5"
       name: vscode-java
       memoryLimit: "1500Mi"
       args:
