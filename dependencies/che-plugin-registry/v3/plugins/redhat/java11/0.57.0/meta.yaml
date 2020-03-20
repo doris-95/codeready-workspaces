@@ -19,6 +19,9 @@ spec:
         - sh
         - -c
         - ${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}
+      env:
+      - name: GRADLE_HOME
+        value: /opt/gradle/
       volumes:
       - mountPath: "/home/jboss/.m2"
         name: m2
