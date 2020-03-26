@@ -15,5 +15,9 @@ spec:
     - image: "registry.redhat.io/codeready-workspaces/plugin-openshift-rhel8:2.1"
       name: "vscode-openshift-connector"
       memoryLimit: "512Mi"
+      args:
+        - sh
+        - -c
+        - ${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}
   extensions:
     - https://download.jboss.org/jbosstools/vscode/stable/vscode-openshift-tools/openshift-connector-0.1.4-523.vsix
