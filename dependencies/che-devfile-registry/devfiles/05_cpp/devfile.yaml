@@ -11,7 +11,7 @@ projects:
 components:
 -
   type: chePlugin
-  id: che-incubator/cpptools/latest
+  reference: https://raw.githubusercontent.com/svor/codeready-workspaces/sv/testCRW/dependencies/che-plugin-registry/v3/plugins/che-incubator/cpptools/0.1.0/meta.yaml
   alias: cpp-plugin
   preferences:
     clangd.path: /usr/bin/clangd
