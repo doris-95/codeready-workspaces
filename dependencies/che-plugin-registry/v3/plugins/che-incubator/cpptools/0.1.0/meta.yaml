@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: '2019-08-06'
 spec:
   containers:
-    - image: "my_image"
+    - image: "quay.io/ghatwala/stacks-golang-nojdk-rhel8:2.2"
       name: cpp-plugins
       memoryLimit: '512Mi'
       args:
