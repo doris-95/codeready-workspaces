@@ -15,7 +15,7 @@ components:
   memoryLimit: 1Gi
 -
   type: chePlugin
-  reference: https://raw.githubusercontent.com/doris-95/codeready-workspaces/master/dependencies/che-plugin-registry/v3/plugins/redhat/php-debugger/1.13.0/meta.yaml
+  id: redhat/php-debugger/latest
   memoryLimit: 256Mi
 -
   type: dockerimage
