@@ -19,7 +19,7 @@ components:
 -
   type: dockerimage
   alias: cpp-dev
-  image: "quay.io/ghatwala/stacks-golang-nojdk-rhel8:2.2"
+  image: "quay.io/ghatwala/stacks-cpp-nojdk-rhel8:2.2"
   memoryLimit: 512Mi
   mountSources: true
 commands:
