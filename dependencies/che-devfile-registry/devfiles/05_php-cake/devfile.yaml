@@ -11,7 +11,7 @@ projects:
 components:
 -
   type: chePlugin
-  id: redhat/php/latest
+  reference: https://raw.githubusercontent.com/doris-95/codeready-workspaces/master/dependencies/che-plugin-registry/v3/plugins/redhat/php/1.3.11/meta.yaml
   memoryLimit: 1Gi
 -
   type: chePlugin
